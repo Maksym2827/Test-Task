@@ -1,0 +1,33 @@
+@import 'src/styles/variables';
+@import 'src/styles/mixins';
+
+.product-card {
+  @extend %flex-column-center;
+  width: 300px;
+  height: 320px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid $light-gray;
+
+  .card-image {
+    text-align: center;
+    margin-bottom: 30px;
+
+    img {
+        width: 260px;
+        height: 180px;
+    }
+  }
+
+  .card-info {
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+}

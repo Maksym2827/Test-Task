@@ -1,0 +1,13 @@
+@import 'src/styles/mixins';
+
+.card-items {
+  @extend %flex-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1290px) {
+  .card-items {
+    justify-content: space-around;
+  }
+}
+
