@@ -20,14 +20,21 @@
   }
 
   .card-info {
-    h2 {
-      font-size: 20px;
+    span {
+      display: block;
+      font-family: 'Poppins', sans-serif;
+      font-size: 10px;
       margin-bottom: 10px;
+      text-transform: uppercase;
+      color: $dark-gray;
     }
 
     p {
-      font-size: 14px;
+      font-family: 'Poppins', sans-serif;
+      font-size: $base-text;
       margin-bottom: 10px;
+      font-weight: bold;
+      color: $dark-gray;
     }
   }
 }

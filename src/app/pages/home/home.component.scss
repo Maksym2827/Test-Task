@@ -6,7 +6,7 @@
     .carousel-wrap {
       max-width: 1000px;
       width: 100%;
-      margin: 0 auto;
+      margin: 90px auto;
 
       owl-carousel-o {
         position: relative;
@@ -52,5 +52,6 @@
 @media (max-width: 800px) {
   .carousel-wrap {
     max-width: 330px;
+    margin: 30px auto;
   }
 }
